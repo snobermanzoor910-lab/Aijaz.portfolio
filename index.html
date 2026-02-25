@@ -1,38 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aijaz Hussain - MSME Srinagar</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ajaz Hussain Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #555;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: black;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <h1>Aijaz Hussain</h1>
+    <h1>Ajaz Hussain</h1>
     <p>MSME Srinagar | Web Developer</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<section>
+<section id="home">
+    <div class="box">
+        <h2>Welcome to My Portfolio</h2>
+        <img src="https://via.placeholder.com/200" alt="Profile Image">
+        <p>Hello! I am Ajaz Hussain, a passionate Web Developer.</p>
+    </div>
+</section>
 
-    <!-- First Image -->
-    <img src="1.jpg" class="profile-img" alt="Profile Image">
+<section id="about">
+    <div class="box">
+        <h2>About Me</h2>
+        <p>I am learning Web Development from MSME Srinagar. I love creating websites and learning new technologies.</p>
+    </div>
+</section>
 
-    <h2>Welcome to My Portfolio</h2>
+<section id="skills">
+    <div class="box">
+        <h2>My Skills</h2>
+        <p>✔ HTML</p>
+        <p>✔ CSS</p>
+        <p>✔ JavaScript (Basic)</p>
+    </div>
+</section>
 
-    <!-- Second Image -->
-    <img src="2.jpg" class="profile-img" alt="Second Image">
+<section id="projects">
+    <div class="box">
+        <h2>My Projects</h2>
+        <p>1. Portfolio Website</p>
+        <p>2. HTML Exam Project</p>
+        <p>3. Simple Racing Game</p>
+    </div>
+</section>
 
+<section id="contact">
+    <div class="box">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+        <p>Phone: 1234567890</p>
+        <button onclick="alert('Thank you for visiting!')">Send Message</button>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Aijaz Hussain | MSME Srinagar</p>
+    © 2026 Ajaz Hussain | MSME Srinagar
 </footer>
 
 </body>
