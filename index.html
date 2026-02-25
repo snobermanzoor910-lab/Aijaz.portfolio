@@ -3,25 +3,26 @@
 <head>
     <title>Ajaz Hussain Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             scroll-behavior: smooth;
-            background-color: #f4f4f4;
+            background: #f2f2f2;
         }
 
         header {
-            background: #333;
+            background: #2c2c2c;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 25px;
         }
 
         nav {
-            background: #555;
+            background: #444;
             text-align: center;
-            padding: 10px;
+            padding: 12px;
         }
 
         nav a {
@@ -36,38 +37,39 @@
         }
 
         section {
-            padding: 40px;
+            padding: 50px 20px;
             text-align: center;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin: 30px auto;
+            width: 85%;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
 
         img {
             width: 200px;
             border-radius: 50%;
-            margin-top: 20px;
+            margin: 20px 0;
         }
 
         footer {
-            background: #333;
+            background: #2c2c2c;
             color: white;
             text-align: center;
             padding: 15px;
         }
 
-        .box {
-            background: white;
-            padding: 20px;
-            margin: 20px auto;
-            width: 80%;
-            border-radius: 10px;
-            box-shadow: 0 0 10px gray;
-        }
-
         button {
             padding: 10px 20px;
-            background: #333;
-            color: white;
             border: none;
+            background: #2c2c2c;
+            color: white;
             border-radius: 5px;
+            cursor: pointer;
         }
 
         button:hover {
@@ -91,23 +93,29 @@
     <a href="#contact">Contact</a>
 </nav>
 
+<!-- HOME -->
 <section id="home">
-    <div class="box">
+    <div class="card">
         <h2>Welcome to My Portfolio</h2>
-        <img src="https://via.placeholder.com/200" alt="Profile Image">
+
+        <!-- PHOTO 1 -->
+        <img src="1.jpg" alt="Profile Photo">
+
         <p>Hello! I am Ajaz Hussain, a passionate Web Developer.</p>
     </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
-    <div class="box">
+    <div class="card">
         <h2>About Me</h2>
         <p>I am learning Web Development from MSME Srinagar. I love creating websites and learning new technologies.</p>
     </div>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
-    <div class="box">
+    <div class="card">
         <h2>My Skills</h2>
         <p>✔ HTML</p>
         <p>✔ CSS</p>
@@ -115,17 +123,23 @@
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-    <div class="box">
+    <div class="card">
         <h2>My Projects</h2>
+
+        <!-- PHOTO 2 -->
+        <img src="2.jpg" alt="Project Photo">
+
         <p>1. Portfolio Website</p>
         <p>2. HTML Exam Project</p>
         <p>3. Simple Racing Game</p>
     </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-    <div class="box">
+    <div class="card">
         <h2>Contact Me</h2>
         <p>Email: your@email.com</p>
         <p>Phone: 1234567890</p>
